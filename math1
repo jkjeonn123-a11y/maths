@@ -1,0 +1,40 @@
+num = int(input("Enter number: "))
+for i in range(1, 11):
+ print(num, "x", i, "=", num*i) 
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+ print("Greatest:", a)
+else:
+ print("Greatest:", b) 
+
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+ print("Even Number")
+else:
+ print("Odd Number") 
+
+
+text = input("Enter a string: ")
+reversed_text = text[::-1]
+print("Reversed string:", reversed_text) 
+
+
+
+text = input("Enter string: ")
+if text == text[::-1]:
+ print("Palindrome")
+else:
+ print("Not Palindrome") 
+
+
+or i in range(1, 11):
+ print(i, "square =", i*i) 
+
+
+
+
